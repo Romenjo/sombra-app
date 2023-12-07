@@ -1,9 +1,6 @@
 import "./App.css";
 import Card from "./components/Card";
 import HorizontalStack from "./components/HorizontalStack";
-import "./App.css";
-import Card from "./components/Card";
-import HorizontalStack from "./components/HorizontalStack";
 import DanyliukImage from "./images/danyliuk.jpg";
 import HrytskovImage from "./images/romenjo.jpg";
 import HukannaImage from "./images/Hukanna.jpg";
