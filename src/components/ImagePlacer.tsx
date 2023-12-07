@@ -4,8 +4,8 @@ const ImagePlacer = ({ imageUrl }) => {
   const styles = {
     borderRadius: '50%',
     overflow: 'hidden',
-    width: '350px',
-    height: '350px',
+    width: '440px',
+    height: '440px',
     margin: '0 auto', 
   };
 
