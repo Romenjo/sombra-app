@@ -1,6 +1,10 @@
 import React from 'react';
 
-const ImagePlacer = ({ imageUrl }) => {
+interface ImagePlacerProps {
+  imageUrl: string;
+}
+
+const ImagePlacer: React.FC<ImagePlacerProps> = ({ imageUrl }) => {
   const styles = {
     borderRadius: '50%',
     overflow: 'hidden',
