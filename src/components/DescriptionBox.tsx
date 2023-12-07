@@ -7,7 +7,7 @@ interface DescriptionBoxProps {
 
 const DescriptionBox: React.FC<DescriptionBoxProps> = ({ name, description }) => {
   return (
-    <div style={{ maxWidth: '440px', wordWrap: 'break-word', margin: '0 auto'}}>
+    <div style={{ maxWidth: '500px', wordWrap: 'break-word', margin: '0 auto'}}>
       <h1 style={{ fontFamily: 'Alice', fontWeight: 'bold', textAlign: 'center' }}>{name}</h1>
       <p style={{ fontFamily: 'Alice', fontSize: '20px' }}>{description}</p>
     </div>
