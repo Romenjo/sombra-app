@@ -1,8 +1,13 @@
 import "./App.css";
 import Card from "./components/Card";
 import HorizontalStack from "./components/HorizontalStack";
+import "./App.css";
+import Card from "./components/Card";
+import HorizontalStack from "./components/HorizontalStack";
 import DanyliukImage from "./images/danyliuk.jpg";
 import HrytskovImage from "./images/romenjo.jpg";
+import HukannaImage from "./images/Hukanna.jpg";
+
 
 function App() {
   return (
@@ -14,6 +19,13 @@ function App() {
           description="Student of LPNU, 19, 182. Likes football and basketball, explore nature.
           Listens to folk tracks."
           glowColor="aqua"
+          />
+         <Card
+          imageUrl={HukannaImage}
+          name="HukannaImage"
+          description="Student of LPNU, 18, 166. Likes music, dances and Sombra Lessons.
+          Listens to pop tracks."
+          glowColor="yellow"
           />
           <Card
           imageUrl={HrytskovImage}
