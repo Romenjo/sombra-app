@@ -19,7 +19,7 @@ function App() {
           />
          <Card
           imageUrl={HukannaImage}
-          name="HukannaImage"
+          name="Anna Huk"
           description="Student of LPNU, 18, 166. Likes music, dances and Sombra Lessons.
           Listens to pop tracks."
           glowColor="yellow"
