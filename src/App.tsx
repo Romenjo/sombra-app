@@ -28,7 +28,7 @@ function App() {
          <Card
           imageUrl={DzobaImage}
           name="Anna Dzoba"
-          description="Student of LPNU, 19, 168. Likes programming.
+          description="Student of LPNU, 19, 168. Likes proроророgramming.
           Listens to Stockholm hearts."
           glowColor="yellow"
           />
