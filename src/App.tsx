@@ -4,13 +4,14 @@ import HorizontalStack from "./components/HorizontalStack";
 import DanyliukImage from "./images/danyliuk.jpg";
 import HrytskovImage from "./images/romenjo.jpg";
 import HukannaImage from "./images/Hukanna.jpg";
+import DzobaImage from "./images/DzobaImage.jpg";"
 
 
 function App() {
   return (
     <>
       <HorizontalStack>
-        <Card
+          <Card
           imageUrl={DanyliukImage}
           name="Yulian Danyliuk"
           description="Student of LPNU, 19, 182. Likes football and basketball, explore nature.
@@ -24,13 +25,20 @@ function App() {
           Listens to pop tracks."
           glowColor="yellow"
           />
+         <Card
+          imageUrl={DzobaImage}
+          name="Anna Dzoba"
+          description="Student of LPNU, 19, 168. Likes programming.
+          Listens to Stockholm hearts."
+          glowColor="yellow"
+          />
           <Card
           imageUrl={HrytskovImage}
           name="Roman Hrytskov"
           description="Student of LPNU, 19, 185. Likes football, adores football, believes in footballs supremacy.
           Listens to Lil Peep tracks."
           glowColor="cyan"
-        />
+          />
       </HorizontalStack>
     </>
   );
