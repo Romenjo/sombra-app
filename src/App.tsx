@@ -4,7 +4,7 @@ import HorizontalStack from "./components/HorizontalStack";
 import DanyliukImage from "./images/danyliuk.jpg";
 import HrytskovImage from "./images/romenjo.jpg";
 import HukannaImage from "./images/Hukanna.jpg";
-import DzobaImage from "./images/DzobaImage.jpg";"
+import DzobaImage from "./images/DzobaImage.jpg";
 
 
 function App() {
